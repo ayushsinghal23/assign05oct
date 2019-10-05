@@ -11,21 +11,14 @@ public class Main6 {
 
     }
 
-    public String getInput() {
-        return input;
-    }
 
     public void modification() {
-        for (int i = 0; i < getInput().length(); i++) {
-            if (getInput().charAt(i) == 'a' || getInput().charAt(i) == 'e' || getInput().charAt(i) == 'i' ||
-                    getInput().charAt(i) == 'o' || getInput().charAt(i) == 'u') {
-                input = getInput().replace(getInput().charAt(i), '*');
+        input = input.toUpperCase();
+        System.out.println(input);
 
             }
-        }
-        System.out.println(input);
     }
-}
+
 
 class uppperCase {
     public static void main(String[] args) {
