@@ -6,14 +6,11 @@ public class Main4 {
     private String input;
     private int c = 0;
 
+
     public Main4(String input) {
         this.input = input;
-
     }
 
-    public String getInput() {
-        return input;
-    }
 
     public void modification() {
 
