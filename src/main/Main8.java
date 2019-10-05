@@ -4,7 +4,6 @@ package main;
 import java.util.Scanner;
 
 public class Main8 {
-    public String k;
     private String input;
 
     public Main8(String input) {
